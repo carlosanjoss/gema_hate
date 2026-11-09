@@ -74,9 +74,9 @@ post raiz (posts.id)
 ## Instalação
 
 ```powershell
-cd "C:\Users\carlo\OneDrive\Documents\ESTUDOS\MESTRADO\Trabalho Radar Ódio\gemma_hate_inference"
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+cd gemma_hate_inference
+py -V:Astral/CPython3.11.15 -m venv .venv311
+.\.venv311\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 ```
 
